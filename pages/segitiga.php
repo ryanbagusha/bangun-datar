@@ -162,6 +162,7 @@
   <script src="../assets/js/bootstrap.bundle.min.js"></script>
   <script src="../assets/vendors/fontawesome/js/all.min.js"></script>
 
+  <!-- Menghitung luas segitiga pada form -->
   <script>
     $("#tinggi").keyup(function(){
     a = $("#alas").val();

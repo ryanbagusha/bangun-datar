@@ -152,6 +152,7 @@
   <script src="../assets/js/bootstrap.bundle.min.js"></script>
   <script src="../assets/vendors/fontawesome/js/all.min.js"></script>
 
+  <!-- Menghitung luas lingkaran pada form -->
   <script>
     $("#radius").keyup(function(){
     r = $("#radius").val();

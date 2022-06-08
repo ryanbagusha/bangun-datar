@@ -188,6 +188,7 @@
   <script src="../assets/vendors/fontawesome/js/all.min.js"></script>
   <script src="../assets/js/chart.min.js"></script>
 
+  <!-- Membuat chart pie -->
   <script>
     var donutChartCanvas = $('#donutChart').get(0).getContext('2d')
     var donutData        = {
@@ -207,8 +208,7 @@
       maintainAspectRatio : false,
       responsive : true,
     }
-    //Create pie or douhnut chart
-    // You can switch between pie and douhnut using the method below.
+
     new Chart(donutChartCanvas, {
       type: 'pie',
       data: donutData,

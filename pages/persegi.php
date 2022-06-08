@@ -153,6 +153,7 @@
   <script src="../assets/js/bootstrap.bundle.min.js"></script>
   <script src="../assets/vendors/fontawesome/js/all.min.js"></script>
 
+  <!-- Menghitung luas persegi pada form -->
   <script>
     $("#sisi").keyup(function(){
     s = $("#sisi").val();
